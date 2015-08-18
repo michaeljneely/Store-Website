@@ -1,0 +1,151 @@
+<head>
+	<title>Finn and Jake's Adventure Time Store</title>
+	<style>
+		.column2 {
+			background-image: url("images/pb.png");}
+	</style>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->
+			<div class="feature">
+				<p>Welcome to the greatest on-line store in the land of Ooo! We sell only the finest quality magical items and accessories. Have fun looking around! -Finn and Jake</p>
+			</div><!-- feature -->
+			<div class="column1">
+				<table>
+					<tr>
+						<td>
+							<div class="fig">
+								<img src="images/crapple.png"></img>
+							</div>
+							<div class="figtitle">
+							Crystal Apple
+							</div>
+							<div class="figcaption">
+							The tastiest apple in all of Ooo! Warning: consumer might be teleported to Crystal Dimension!
+							</div>
+							<div class="figprice">
+							Price: 1000 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</div>
+						</td>
+						<td>
+							<span class="fig">
+								<img src="images/bmilk.jpeg"></img>
+							</span>
+							<span class="figtitle">
+							Bugs Milk
+							</span>
+							<span class="figcaption">
+							No one knows how it's made. A delicious beverage that goes well with cereal.
+							</span>
+							<span class="figprice">
+							Price: 100 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</span>
+						</td>
+						<td>
+							<span class="fig">
+								<img src="images/rules.jpeg"></img>
+							</span>
+							<span class="figtitle">
+							Royal Rules Book
+							</span>
+							<span class="figcaption">
+							A must-read if you want to be King of the Goblins.
+							</span>
+							<span class="figprice">
+							Price: 800 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<span class="fig">
+							<img src="images/wishingeye.jpeg"></img>
+						</span>
+						<span class="figtitle">
+						Wicked Wishing Eye
+						</span>
+						<span class="figcaption">
+						A magical artifact that has the power to grant the users wishes. Be specific!
+						</span>
+						<span class="figprice">
+						Price: 5000 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+						<td>
+						<span class="fig">
+							<img src="images/babyballet.png"></img>
+						</span>
+						<span class="figtitle">
+						Baby Ballet
+						</span>
+						<span class="figcaption">
+						We found this in Ice King's castle. Its totally for babies, man! (and penguins...)
+						</span>
+						<span class="figprice">
+						Price: 400 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+						<td>
+						<span class="fig">
+							<img src="images/robes.png"></img>
+						</span>
+						<span class="figtitle">
+						Wizard Robes
+						</span>
+						<span class="figcaption">
+						These robes are totally algebraic! Nothing says 'Blamo' like purple and gold!
+						</span>
+						<span class="figprice">
+						Price: 2300 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<span class="fig">
+							<img src="images/machine.png"></img>
+						</span>
+						<span class="figtitle">
+						Imagination Machine
+						</span>
+						<span class="figcaption">
+						Controls your imagination. Can be switched on and off. Try it if you dare!
+						</span>
+						<span class="figprice">
+						Price: 4000 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+						<td>
+						<span class="fig">
+							<img src="images/nerdicon.png"></img>
+						</span>
+						<span class="figtitle">
+						Glasses of Nerdicon
+						</span>
+						<span class="figcaption">
+						Become super smart when you put these on! Useful for impressing people.
+						</span>
+						<span class="figprice">
+						Price: 3750 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+						<td>
+						<span class="fig">
+							<img src="images/googoo.png"></img>
+						</span>
+						<span class="figtitle">
+						Googoomometer
+						</span>
+						<span class="figcaption">
+						Measures the amount of magic in the area. Useful while questing through dungeons.
+						</span>
+						<span class="figprice">
+						Price: 1500 gold<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+						</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="column2">
+			</div>
+<!--#include virtual="bottom.html" -->
