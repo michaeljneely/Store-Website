@@ -1,0 +1,27 @@
+<head>
+	<title>Useful Links</title>
+	<style>
+		.column2 {
+			background-image: url("images/bg.png");}
+	</style>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->
+			<div class="feature">
+				<p>Check out these useful links down below:</p>
+			</div>
+			<div class="column1">
+				<img src="images/finnglasses.png"></img>
+				<div class="links">
+					<ul>
+						<li><a href="http://adventuretime.wikia.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki">Adventure Time Wiki</a></li>
+						<li><a href="http://www.cartoonnetwork.com/tv_shows/promotion_landing_page/adventure-time/index.html">Adventure Time on Cartoon Network</a></li>
+						<li><a href="http://www.reddit.com/r/adventuretime">Adventure Time on Reddit</a></li>
+						<li><a href="http://www.tumblr.com/tagged/adventure-time">Adventure Time on Tumblr</a></li>
+						<li><a href="http://www.diymysticism.com/2011/08/bloobalooby-words.html">Definitions for some Adventure Time slang</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="column2">
+			</div>
+<!--#include virtual="bottom.html" -->
