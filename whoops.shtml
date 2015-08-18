@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try Again Later</title>
+	<style>
+		.content {
+			position: relative;
+			height: 510px;}
+		#error {
+			padding: 5px;
+			background-color: #ffffff;
+			font-size: 20px;
+			position: relative;
+			top: 455px;
+			margin: 10px;}
+		#errorimage {
+			position: absolute;
+			left: 173px;}
+		#errorsword {
+			position: absolute;
+			top: 5px;
+			left: 5px;}
+		#errorsword2 {
+			position: absolute;
+			top: 5px;
+			right: 5px;}
+	</style>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->
+			<div id="errorimage">
+				<img src="images/adventuring2.jpeg"></img>
+			</div>
+			<div id="errorsword">
+				<img src="images/errorsword.png"></img>
+			</div>
+			<div id="errorsword2">
+				<img src="images/errorsword.png"></img>
+			</div>
+			<div id="error">
+				Sorry! Finn and Jake are out adventuring and cannot process your order. Try again another time.
+			</div>
+<!--#include virtual="bottom.html" -->
