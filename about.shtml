@@ -1,0 +1,49 @@
+<head>
+	<title>About Us</title>
+	<style>
+		.column2 {
+			background-image: url("images/sword.png");}
+		.column1 {
+			background-color: #ffffff !important;}
+	</style>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->
+			<div class="feature">
+				<p>Read all about our operation down below:</p>
+			</div>
+			<div class="column1">
+				<h1>About Finn and Jake's Store:</h1>
+				<div class="aboutimageright">
+					<img src="images/choosegoose.png"></img>
+				</div>
+				<div class="abouttext">
+				We like to adventure. Like alot! And that means that tons of loot constantly piles up in our house. How do we get rid of it?
+				By selling it to customers all around the land of Ooo! It's a great way to pay for things we need like video games, food and
+				dungeoneering items and potions from Choose Goose!
+				</div>
+				<span class="abouttext">
+				You can rest assured that all of our products are in great condition and protected by our money-back guarantee! Our company has
+				received numerous awards, including: The Candy Kingdom Royal Medal of Excellence, The Breakfast Kingdom's Brunchtastic Award and
+				the Cosmic Owl's Seal of Approval. Wow!
+				</span>
+				<div class="aboutimageleft">
+					<img src="images/medal.png"></img>
+				</div>
+				<span class="abouttext">
+				Check back regularly for new items. Our stock rotates rapidly due to the nature of our acquisitions. 
+				If you have any questions, please do not hesitate to contact us. Jake, BMO and I will do our best to help you out!
+				</span>
+				<span class="abouttext">
+				Regards,
+				</span>
+				<span class="abouttext">
+				Finn, Jake and BMO of the Adventure Time Store
+				</span>
+				<div class="aboutimageright">
+					<img src="images/loot.jpeg"></img>
+				</div>
+			</div>
+			<div class="column2">
+			</div>
+<!--#include virtual="bottom.html" -->
