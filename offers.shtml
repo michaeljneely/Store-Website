@@ -1,0 +1,157 @@
+<head>
+	<title>Special Offers</title>
+	<style>
+		#rainicorn {
+			position: absolute;
+			left: 10px;
+			top: 1px;}
+		#rainicorn2 {
+			position: absolute;
+			right: 10px;
+			top: 1px;}
+		.column1 {
+			position: relative;}
+		.column2 {
+			background-image: url("images/fp.png");}
+		.offertd {
+			width: 375px;
+			height: 375px;
+			border: 2px solid;
+			text-align: center;
+			position: relative;}
+		.offerfig {
+			position: absolute;
+			top: 2px;
+			right: 112px;
+			left: 112px;}
+		.offertitle {
+			position: absolute;
+			top: 157px;
+			right: 5px;
+			left: 5px;
+			height: 45px;
+			font-weight: bold;
+			font-size: 36px;}
+		.offercaption {
+			position: absolute;
+			top: 207px;
+			right: 5px;
+			left: 5px;
+			font-style: italic;
+			font-size: 24px;
+			height: 90px;}
+		.offerprice {
+			position: absolute;
+			top: 325px;
+			right: 5px;
+			left: 5px;
+			font-weight: bold;
+			color: green;
+			height: 42px;
+			font-size: 30px;}
+		input {
+			padding: 5px;
+			font-size: 18px;}
+		form {
+			display: inline;q
+			margin: 5px;
+			margin-left: 10px;}
+		.caption {
+			background:#000000;
+			color:#ffffff;
+			font-size: 16px;
+			width: 150px;
+			position:absolute;
+			bottom:0;
+			left:0;
+			text-align:center;
+			opacity:.75;
+			filter:alpha(opacity=85);}
+	</style>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->
+			<div class="feature">
+				<p>Check out these amazing offers! -Finn and Jake</p>
+				<div id="rainicorn">
+					<img src="images/rainicorn.png"></img>
+				</div>
+				<div id="rainicorn2">
+					<img src="images/rainicorn.png"></img>
+				</div>
+			</div><!-- feature -->
+			<div class="column1">
+				<table>
+					<tr>
+						<td class="offertd">
+							<div class="offerfig">
+								<img src="images/pie.png" onmouseover="captionAppear(0); ReplaceContentInContainer(0,'Super Delicious!');" onmouseout="captionDisappear(0);"></img>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="offertitle">
+							TT's Apple Pie
+							</div>
+							<div class="offercaption">
+							An apple pie crafted by Tree Trunks, the best baker in all of Ooo! Mathematically tasty!
+							</div>
+							<div class="offerprice">
+							Price: 500 gold!<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</div>
+						</td>
+						<td span class="offertd">
+							<div class="offerfig">
+								<img src="images/ccshotgun.png" onmouseover="captionAppear(1); ReplaceContentInContainer(1,'Defend Your Home!');" onmouseout="captionDisappear(1);"></img>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="offertitle">
+							Candy Cane Shotgun
+							</div>
+							<div class="offercaption">
+							A truly fearsome weapon! Pump action, but requires the user's own sound effects.
+							</div>
+							<div class="offerprice">
+							Price: 1000 gold!<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td span class="offertd">
+							<div class="offerfig">
+								<img src="images/yeargh.png" onmouseover="captionAppear(2); ReplaceContentInContainer(2,'It\'s Yeearghalicious!');" onmouseout="captionDisappear(2);"></img>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="offertitle">
+							Yeeargh! Spread
+							</div>
+							<div class="offercaption">
+							It smells nice but we aren't really sure what it is. Might be good on toast or something...
+							</div>
+							<div class="offerprice">
+							Price: 200 gold!<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</div>
+						</td>
+						<td span class="offertd">
+							<div class="offerfig">
+								<img src="images/disruptor.png" onmouseover="captionAppear(3); ReplaceContentInContainer(3,'Fight Demons!');" onmouseout="captionDisappear(3);"></img>
+								<div class="caption">
+								</div>
+							</div>
+							<div class="offertitle">
+							Dimension Device
+							</div>
+							<div class="offercaption">
+							Apparently it disrupts dimensions. Jake keeps eating the pickle so we can't get it to work...
+							</div>
+							<div class="offerprice">
+							Price: 600 gold!<form action="whoops.shtml"><input type="submit" value="Purchase"></form>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="column2">
+			</div>
+<!--#include virtual="bottom.html" -->
