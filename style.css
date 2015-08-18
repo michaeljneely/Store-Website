@@ -1,0 +1,359 @@
+/* ----- Page ----- */
+#wrapper{
+	background-color: #0ACB00;
+	float: center;
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto;}
+.column1 {
+	background-color: #0ACB00;
+	width: 770px;
+	height: 758px;
+	float: left;
+	margin: 10px;}
+.column2 {
+	width: 150px;
+	float: right;
+	margin: 10px;
+	height: 758px;
+	background-color: #ffffff;}
+.feature {
+	padding: 5px;
+	margin: 10px;
+	background-color: #ffffff;
+	font-size: 20px;
+	position: relative;}
+body {
+	background-color: #ffffff;
+	background-position: center;
+	background: url("images/bigwallpaper.jpeg");
+	background-size: 2606px 1468px;
+	margin: 0 auto;}
+td {
+	width: 250px;
+	height: 250px;
+	border: 2px solid;
+	text-align: center;
+	position: relative;}
+table {
+	background-color: #ffffff;
+	border: 0px;
+	margin: 0px;}
+form {
+	display: inline;
+	margin: 5px;
+	margin-left: 10px;}
+h1 {
+	text-decoration: underline;}
+a {
+	color: red;}
+select {
+	display: block;
+	height: 35px;
+	width: 270px;
+	margin: 0px;
+	font-size: 18px;}
+textarea {
+	width: 420px;
+	height: 200px;
+	font-size: 18px;}
+input {
+	padding: 5px;}
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;}
+/* ----- Top ----- */
+#header {
+	background-image: url("images/bannertime.jpg");
+	width: 940px;
+	height: 230px;
+	background-position: center;
+	margin: 10px;
+	position: relative;}
+#clock {
+	color: #000000;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	float: left;
+	background-color: orange;
+	margin: 0px;
+	height: 30px;
+	width: 90px;
+	border-style: outset;
+	border-color: orange;}
+#animatedpic{
+	position: absolute;
+	left: 10px;
+	top: -20px;}
+.content {
+	overflow: auto;}
+.nav{
+	padding: 10px;
+	margin: 10px;
+	background-color: #ffffff;
+	font-size: 20px;
+	position: relative;
+	text-align: center;}
+.nav:hover {
+	background-color: yellow;}
+.nav a {
+	color: red;}
+.nav ul {
+	list-style: none;}
+.nav li {
+	padding: 10px;
+	display: inline;}
+/* ----- Index ----- */
+.fig {
+	position: absolute;
+	top: 2px;
+	right: 75px;
+	left: 75px;}
+.figtitle {
+	position: absolute;
+	top: 107px;
+	right: 5px;
+	left: 5px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 24px;}
+.figcaption {
+	position: absolute;
+	top: 142px;
+	right: 5px;
+	left: 5px;
+	font-style: italic;
+	height: 60px;}
+.figprice {
+	position: absolute;
+	top: 212px;
+	right: 5px;
+	left: 5px;
+	font-weight: bold;
+	color: purple;
+	height: 28px;
+	font-size: 20px;}
+/* ----- Offers ----- */
+
+/* See embedded style sheet as per instructions */
+#dynamicDiv {
+	position: absolute;
+	padding: 10px;
+	border-style: groove;
+	background-color: orange;
+	z-index: 1000;}
+
+/* ----- About ----- */
+.abouttext {
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+	font-style: italic;
+	display: block;}
+.aboutimageright {
+	float: right;
+	margin: 10px;}
+.aboutimageleft {
+	float: left;
+	margin: 10px;
+	clear: right;}
+/* ----- Contact ----- */
+.box_left {
+	height: 770px;
+	width: 500px;
+	float: left;
+	background-color: #0ACB00;
+	margin: 10px;
+	margin-right: 0px;}
+.box_right {
+	height: 770px;
+	width: 430px;
+	margin: 10px;
+	margin-left: 0px;
+	float: right;
+	background-color: #0ACB00;}
+.info_box {
+	display: block;
+	height: 250px;
+	width: 500px;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	position: relative;}
+.form_title {
+	height: 40px;
+	width: 420px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	background-color: #ffffff;
+	padding: 5px;
+	display: block;
+	margin: 0px;
+	margin-bottom: 20px;}
+.cust_name {
+	display: block;
+	width: 430px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #0ACB00;}
+.cust_name_label {
+	display: block;
+	float: left;
+	width: 140px;
+	padding: 5px;
+	margin: 0px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ffffff;}
+.cust_name_input {
+	display: block;
+	float: right;
+	text-align: center;
+	background-color: #0ACB00;
+	margin: 0px;
+	padding: 0px;}
+.cust_name_input input {
+	height: 35px;
+	width: 270px;
+	font-size: 18px;}
+.cust_email {
+	display: block;
+	width: 430px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #0ACB00;}
+.cust_email_label {
+	display: block;
+	float: left;
+	width: 140px;
+	padding: 5px;
+	margin: 0px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ffffff;}
+.cust_email_input {
+	display: block;
+	float: right;
+	text-align: center;
+	background-color: #0ACB00;
+	margin: 0px;
+	padding: 0px;}
+.cust_email_input input {
+	height: 35px;
+	width: 270px;
+	font-size: 18px;}
+.cust_category {
+	display: block;
+	width: 430px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #0ACB00;}
+.cust_category_label {
+	display: block;
+	float: left;
+	width: 140px;
+	padding: 5px;
+	margin: 0px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ffffff;}
+.cust_category_input {
+	display: block;
+	float: right;
+	text-align: center;
+	background-color: #0ACB00;
+	margin: 0px;
+	padding: 0px;}
+.cust_question {
+	display: block;
+	width: 420px;
+	height: 200px;
+	margin: 0px;
+	margin-top: 20px;
+	background-color: #efefef;}
+.submit_button {
+	display: block;
+	width: 420px;
+	height: 40px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: #0ACB00;}
+.submit_button button {
+	font-size: 24px;
+	padding: 5px;}
+.contactimage {
+	height: 248px;
+	width: 248px;
+	margin: 2px;
+	margin-left: 0px;
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid;}
+.contactinfo {
+	height: 250px;
+	width: 500px;
+	margin: 2px;
+	background-color: #ffffff;
+	float: right;
+	position: relative;}
+.contacttitle {
+	text-align: left;
+	font-weight: bold;
+	color: purple;
+	font-size: 28px;
+	padding: 5px;
+	display: block;}
+.contactthumbnail{
+	float: left;
+	margin: 5px;}
+.contactdescription {
+	font-size: 20px;
+	font-style: italic;
+	padding: 5px;
+	text-align: left;
+	display: block;}
+.contactnumber {
+	font-size: 24px;
+	font-weight: bold;
+	color: green;
+	text-align: left;
+	padding: 5px;
+	position: absolute;
+	bottom: 5px;
+	display: block;}
+/* ----- Bottom ----- */
+#footer{
+	background-color: rgb(255, 148, 0);
+	border: 2px solid;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	position: relative;}
+#bbugpic {
+	position: absolute;
+	top: -10px;
+	left: 45px;}
+#sharkpic {
+	position: absolute;
+	top: 5px;
+	right: 45px;}
+/* ----- Links ----- */
+.links {
+	height: 400px;
+	width: 600px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 24px;}
+.links ul {
+	list-style-type: none;}
+.links li {
+	margin: 20px;
+	padding-top: 30px;
+	padding: 15px;
+	font-size: 24px;}
