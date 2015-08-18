@@ -1,0 +1,107 @@
+<head>
+	<title>Contact Information</title>
+	<script src="script.js"></script>
+</head>
+<!--#include virtual="top.html" -->		
+			<div class="feature">
+				<p>Read all about us down below! Ask us questions using the form provided.</p>
+			</div>
+			<div class="box_left">
+				<div class="info_box">
+					<div class="contacttitle">
+					Finn the Human: Marketing Officer
+					</div>
+					<div class="contactthumbnail">
+						<img src="images/finnthumbnail.png"></img>
+					</div>
+					<div class="contactdescription">
+						Finn is my name, adventuring is my game!
+						I'm the guy that makes sure people know about the stuff we are selling. I mostly run around Ooo shouting. Seems to do the trick.
+						Hobbies include dungeon delving, hanging out with Jake and playing BMO.
+					</div>
+					<div class="contactnumber">
+						Phone number: 1-234-5678
+					</div>
+				</div>
+				<span class="info_box">
+					<span class="contacttitle">
+						BMO: World's Best Secretary
+					</span>
+					<span class="contactthumbnail">
+						<img src="images/bmothumbnail.png"></img>
+					</span>
+					<span class="contactdescription">
+						My name is BMO, the living video game console, music player, room-mate, flash light, skateboarder, chef and friend!
+						I am the secretary for Finn and Jake's store. I write emails, answer phone calls and take messages. It is fun!
+					</span>
+					<span class="contactnumber">
+						Phone number: 1-010-0110
+					</span>
+				</span>
+				<span class="info_box" style="margin-bottom: 0px;">
+					<span class="contacttitle">
+						Jake the Dog: Fulfilment Executive
+					</span>
+					<span class="contactthumbnail">
+						<img src="images/jakethumbnail.png"></img>
+					</span>
+					<span class="contactdescription">
+						I'm Jake the magical stretching dog! I use my powers to quickly deliver products to our customers. My life revolves around food. Sandwiches,
+						ice cream, cheese, toast, mmmh I'm getting really hungry! Catch ya later!
+					</span>
+					<span class="contactnumber">
+						Phone number: 1-425-4112
+					</span>
+				</span>
+			</div>
+			<div class="box_right">
+				<div class="form_title">
+					Contact Form
+				</div>
+				<img src="images/rainicorn.png"></img>
+				<form name="contact_form">
+					<div class="cust_name">
+						<div class="cust_name_label">
+							Full Name
+						</div>
+						<div class="cust_name_input">
+							<input name="name_input" type="text" maxlength="30" placeholder="type name here...">
+							</input>
+						</div>
+					</div>
+					<div class="cust_email">
+						<div class="cust_email_label">
+							Email Address
+						</div>
+						<div class="cust_email_input">
+							<input name="email_input" type="text" maxlength="30" placeholder="type email address here...">
+							</input>
+						</div>
+					</div>
+					<div class="cust_category">
+						<div class="cust_category_label">
+							Question Type
+						</div>
+						<div class="cust_category_input">
+							<select name="category">
+								<option value="default" disabled selected>Select your option</option>
+								<option value="sales">Sales</option>
+								<option value="shipping">Shipping</option>
+								<option value="returns">Returns</option>
+								<option value="hi">Just Wanted to Say Hi</option>
+							</select>
+						</div>
+					</div>
+					<div class="cust_question">
+						<div class="question_text">
+								<textarea name="text_input" placeholder="Write your question here..."></textarea>
+						</div>
+					</div>
+					<div class="submit_button">
+						<button onclick="validate(); return false;">Submit</button>
+						<button onclick="reset(); return false;">Reset</button>
+					</div>
+				</form>
+				<img src="images/smallbanner.png"></img>
+			</div>
+<!--#include virtual="bottom.html" -->
